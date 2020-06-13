@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.1//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.samples.SampleRepository">
+
+  <select id="select-all-lists" resultType="java.lang.String">
+    SELECT 'a'
+    UNION SELECT 'b'
+  </select>
+</mapper>
